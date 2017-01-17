@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
-using Klak;
 using Klak.Wiring;
 
 namespace SimpleScript

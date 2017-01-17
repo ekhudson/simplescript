@@ -223,6 +223,7 @@ namespace Klak.Wiring.Patcher
                 if (field == null) continue;
 
                 var boundEvent = (UnityEventBase)field.GetValue(_runtimeInstance);
+                
                 var targetCount = boundEvent.GetPersistentEventCount();
 
                 for (var i = 0; i < targetCount; i++)

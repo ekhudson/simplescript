@@ -39,7 +39,7 @@ namespace Klak.Wiring
     }
 
     // Attribute for marking outlets
-    [AttributeUsage(AttributeTargets.Field | AttributeTargets.Property)]
+    [AttributeUsage(AttributeTargets.Field)]
     public class OutletAttribute : Attribute
     {
         public OutletAttribute() {}
