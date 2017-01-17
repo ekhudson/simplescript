@@ -1,0 +1,8 @@
+c:\projects\Personal\SimpleScript\SimpleScript\Assets\Code\SimpleScript.dll
+c:\projects\Personal\SimpleScript\SimpleScript\Assets\Code\SimpleScript.pdb
+c:\users\elliothudson\documents\visual studio 2015\Projects\SimpleScript\SimpleScript\obj\Debug\SimpleScript.dll
+c:\users\elliothudson\documents\visual studio 2015\Projects\SimpleScript\SimpleScript\obj\Debug\SimpleScript.pdb
+c:\users\elliothudson\documents\visual studio 2015\Projects\SimpleScript\SimpleScript\obj\Debug\SimpleScript.csprojResolveAssemblyReference.cache
+C:\projects\Personal\SimpleScript\Source\SimpleScript\SimpleScript\SimpleScript\obj\Debug\SimpleScript.csprojResolveAssemblyReference.cache
+C:\projects\Personal\SimpleScript\Source\SimpleScript\SimpleScript\SimpleScript\obj\Debug\SimpleScript.dll
+C:\projects\Personal\SimpleScript\Source\SimpleScript\SimpleScript\SimpleScript\obj\Debug\SimpleScript.pdb

@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2D5F4131-2F0E-4213-9890-7970682599D0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KlakIntegration</RootNamespace>
+    <AssemblyName>KlakIntegration</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\..\..\..\projects\Personal\SimpleScript\SimpleScript\Assets\Code\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEditor">
+      <HintPath>..\..\..\..\..\..\..\Program Files\Unity\Editor\Data\Managed\UnityEditor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>..\..\..\..\..\..\..\Program Files\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\..\..\..\Program Files\Unity\Editor\Data\Managed\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Editor\GUIHelper.cs" />
+    <Compile Include="Editor\ImageSequenceWindow.cs" />
+    <Compile Include="Extension\MaterialExtension.cs" />
+    <Compile Include="Extension\VectorMathExtension.cs" />
+    <Compile Include="Math\BasicMath.cs" />
+    <Compile Include="Math\Editor\InterpolatorConfigDrawer.cs" />
+    <Compile Include="Math\Interpolator.cs" />
+    <Compile Include="Math\NoiseGenerator.cs" />
+    <Compile Include="Math\Perlin.cs" />
+    <Compile Include="Math\Tween.cs" />
+    <Compile Include="Math\XXHash.cs" />
+    <Compile Include="Motion\BrownianMotion.cs" />
+    <Compile Include="Motion\ConstantMotion.cs" />
+    <Compile Include="Motion\Editor\BrownianMotionEditor.cs" />
+    <Compile Include="Motion\Editor\ConstantMotionEditor.cs" />
+    <Compile Include="Motion\Editor\SmoothFollowEditor.cs" />
+    <Compile Include="Motion\SmoothFollow.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Wiring\Basic\AxisRotation.cs" />
+    <Compile Include="Wiring\Basic\ColorRamp.cs" />
+    <Compile Include="Wiring\Basic\EulerRotation.cs" />
+    <Compile Include="Wiring\Basic\FloatAnimation.cs" />
+    <Compile Include="Wiring\Basic\FromToVector.cs" />
+    <Compile Include="Wiring\Basic\Vector.cs" />
+    <Compile Include="Wiring\Editor\Basic\AxisRotationEditor.cs" />
+    <Compile Include="Wiring\Editor\Basic\ColorRampEditor.cs" />
+    <Compile Include="Wiring\Editor\Basic\EulerRotationEditor.cs" />
+    <Compile Include="Wiring\Editor\Basic\FloatAnimationEditor.cs" />
+    <Compile Include="Wiring\Editor\Basic\FromToVectorEditor.cs" />
+    <Compile Include="Wiring\Editor\Basic\VectorEditor.cs" />
+    <Compile Include="Wiring\Editor\Filter\DelayEditor.cs" />
+    <Compile Include="Wiring\Editor\Filter\FloatFilterEditor.cs" />
+    <Compile Include="Wiring\Editor\Filter\FloatMixerEditor.cs" />
+    <Compile Include="Wiring\Editor\Filter\FloatVectorMixerEditor.cs" />
+    <Compile Include="Wiring\Editor\Filter\QuaternionMixerEditor.cs" />
+    <Compile Include="Wiring\Editor\Filter\RepeatEditor.cs" />
+    <Compile Include="Wiring\Editor\Filter\ThresholdEditor.cs" />
+    <Compile Include="Wiring\Editor\Filter\ToggleEditor.cs" />
+    <Compile Include="Wiring\Editor\Filter\ToggleFourEditor.cs" />
+    <Compile Include="Wiring\Editor\Filter\VectorMixerEditor.cs" />
+    <Compile Include="Wiring\Editor\Input\AxisInputEditor.cs" />
+    <Compile Include="Wiring\Editor\Input\ButtonInputEditor.cs" />
+    <Compile Include="Wiring\Editor\Input\KeyInputEditor.cs" />
+    <Compile Include="Wiring\Editor\Input\MouseButtonInputEditor.cs" />
+    <Compile Include="Wiring\Editor\Input\MousePositionInputEditor.cs" />
+    <Compile Include="Wiring\Editor\Input\NoiseEditor.cs" />
+    <Compile Include="Wiring\Editor\Input\StarterEditor.cs" />
+    <Compile Include="Wiring\Editor\Output\ActiveStatusOutEditor.cs" />
+    <Compile Include="Wiring\Editor\Output\AnimatorOutEditor.cs" />
+    <Compile Include="Wiring\Editor\Output\ColorOutEditor.cs" />
+    <Compile Include="Wiring\Editor\Output\EventOutEditor.cs" />
+    <Compile Include="Wiring\Editor\Output\FloatOutEditor.cs" />
+    <Compile Include="Wiring\Editor\Output\GenericOutEditor.cs" />
+    <Compile Include="Wiring\Editor\Output\MaterialColorOutEditor.cs" />
+    <Compile Include="Wiring\Editor\Output\MaterialFloatOutEditor.cs" />
+    <Compile Include="Wiring\Editor\Output\MaterialVectorOutEditor.cs" />
+    <Compile Include="Wiring\Editor\Output\ParticleSystemOutEditor.cs" />
+    <Compile Include="Wiring\Editor\Output\RotationOutEditor.cs" />
+    <Compile Include="Wiring\Editor\Output\SystemPropertyOutEditor.cs" />
+    <Compile Include="Wiring\Editor\Output\TransformOutEditor.cs" />
+    <Compile Include="Wiring\Editor\Output\VectorOutEditor.cs" />
+    <Compile Include="Wiring\Editor\Patcher\ConnectionTools.cs" />
+    <Compile Include="Wiring\Editor\Patcher\EdgeGUI.cs" />
+    <Compile Include="Wiring\Editor\Patcher\Graph.cs" />
+    <Compile Include="Wiring\Editor\Patcher\GraphGUI.cs" />
+    <Compile Include="Wiring\Editor\Patcher\GUIUtility.cs" />
+    <Compile Include="Wiring\Editor\Patcher\Node.cs" />
+    <Compile Include="Wiring\Editor\Patcher\NodeEditor.cs" />
+    <Compile Include="Wiring\Editor\Patcher\NodeFactory.cs" />
+    <Compile Include="Wiring\Editor\Patcher\PatcherWindow.cs" />
+    <Compile Include="Wiring\Editor\Patcher\Styles.cs" />
+    <Compile Include="Wiring\Editor\System\PatchEditor.cs" />
+    <Compile Include="Wiring\Filter\Delay.cs" />
+    <Compile Include="Wiring\Filter\FloatFilter.cs" />
+    <Compile Include="Wiring\Filter\FloatMix.cs" />
+    <Compile Include="Wiring\Filter\FloatVectorMix.cs" />
+    <Compile Include="Wiring\Filter\Repeat.cs" />
+    <Compile Include="Wiring\Filter\RotationMix.cs" />
+    <Compile Include="Wiring\Filter\Threshold.cs" />
+    <Compile Include="Wiring\Filter\Toggle.cs" />
+    <Compile Include="Wiring\Filter\ToggleFour.cs" />
+    <Compile Include="Wiring\Filter\VectorMix.cs" />
+    <Compile Include="Wiring\Input\AxisInput.cs" />
+    <Compile Include="Wiring\Input\ButtonInput.cs" />
+    <Compile Include="Wiring\Input\KeyInput.cs" />
+    <Compile Include="Wiring\Input\MouseButtonInput.cs" />
+    <Compile Include="Wiring\Input\MousePositionInput.cs" />
+    <Compile Include="Wiring\Input\Noise.cs" />
+    <Compile Include="Wiring\Input\Starter.cs" />
+    <Compile Include="Wiring\Output\ActiveStatusOut.cs" />
+    <Compile Include="Wiring\Output\AnimatorOut.cs" />
+    <Compile Include="Wiring\Output\ColorOut.cs" />
+    <Compile Include="Wiring\Output\EventOut.cs" />
+    <Compile Include="Wiring\Output\FloatOut.cs" />
+    <Compile Include="Wiring\Output\MaterialColorOut.cs" />
+    <Compile Include="Wiring\Output\MaterialFloatOut.cs" />
+    <Compile Include="Wiring\Output\MaterialVectorOut.cs" />
+    <Compile Include="Wiring\Output\ParticleSystemOut.cs" />
+    <Compile Include="Wiring\Output\RotationOut.cs" />
+    <Compile Include="Wiring\Output\SystemPropertyOut.cs" />
+    <Compile Include="Wiring\Output\TransformOut.cs" />
+    <Compile Include="Wiring\Output\VectorOut.cs" />
+    <Compile Include="Wiring\System\NodeBase.cs" />
+    <Compile Include="Wiring\System\Patch.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

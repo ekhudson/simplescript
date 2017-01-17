@@ -1,0 +1,8 @@
+c:\projects\Personal\SimpleScript\SimpleScript\Assets\Code\KlakIntegration.dll
+c:\projects\Personal\SimpleScript\SimpleScript\Assets\Code\KlakIntegration.pdb
+c:\users\elliothudson\documents\visual studio 2015\Projects\SimpleScriptKlack\ClassLibrary1\obj\Debug\KlakIntegration.dll
+c:\users\elliothudson\documents\visual studio 2015\Projects\SimpleScriptKlack\ClassLibrary1\obj\Debug\KlakIntegration.pdb
+c:\users\elliothudson\documents\visual studio 2015\Projects\SimpleScriptKlack\ClassLibrary1\obj\Debug\KlakIntegration.csprojResolveAssemblyReference.cache
+C:\projects\Personal\SimpleScript\Source\SimpleScript\SimpleScriptKlack\ClassLibrary1\obj\Debug\KlakIntegration.csprojResolveAssemblyReference.cache
+C:\projects\Personal\SimpleScript\Source\SimpleScript\SimpleScriptKlack\ClassLibrary1\obj\Debug\KlakIntegration.dll
+C:\projects\Personal\SimpleScript\Source\SimpleScript\SimpleScriptKlack\ClassLibrary1\obj\Debug\KlakIntegration.pdb
