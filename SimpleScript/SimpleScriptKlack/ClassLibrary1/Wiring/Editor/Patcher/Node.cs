@@ -220,8 +220,8 @@ namespace Klak.Wiring.Patcher
             foreach (var slot in outputSlots)
             {
                 var field = _runtimeInstance.GetType().GetField(slot.name, flags);
-                if (field == null) continue;
-
+                if (field == null) continue;                
+                                
                 var boundEvent = (UnityEventBase)field.GetValue(_runtimeInstance);
                 
                 var targetCount = boundEvent.GetPersistentEventCount();

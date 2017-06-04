@@ -6,3 +6,8 @@ c:\users\elliothudson\documents\visual studio 2015\Projects\SimpleScript\SimpleS
 C:\projects\Personal\SimpleScript\Source\SimpleScript\SimpleScript\SimpleScript\obj\Debug\SimpleScript.csprojResolveAssemblyReference.cache
 C:\projects\Personal\SimpleScript\Source\SimpleScript\SimpleScript\SimpleScript\obj\Debug\SimpleScript.dll
 C:\projects\Personal\SimpleScript\Source\SimpleScript\SimpleScript\SimpleScript\obj\Debug\SimpleScript.pdb
+C:\Users\Elliot\Unity Projects\SimpleScript\SimpleScript\SimpleScript\SimpleScript\obj\Debug\SimpleScript.csprojResolveAssemblyReference.cache
+C:\Users\Elliot\Unity Projects\SimpleScript\SimpleScript\SimpleScript\SimpleScript\obj\Debug\SimpleScript.dll
+C:\Users\Elliot\Unity Projects\SimpleScript\SimpleScript\SimpleScript\SimpleScript\obj\Debug\SimpleScript.pdb
+C:\Users\Elliot\Unity Projects\SimpleScript\Simple Script\Assets\Code\SimpleScript.dll
+C:\Users\Elliot\Unity Projects\SimpleScript\Simple Script\Assets\Code\SimpleScript.pdb

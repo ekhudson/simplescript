@@ -5,7 +5,7 @@ using Klak.Wiring;
 namespace SimpleScript
 {
     [AddComponentMenu("Klak/Wiring/SimpleScript/Generator/Delta Time")]
-    public class DeltaTime : ScriptingAction
+    public class DeltaTime : SimpleScriptBase
     {
         public class DeltaTimeEvent : UnityEvent<float> { }
 

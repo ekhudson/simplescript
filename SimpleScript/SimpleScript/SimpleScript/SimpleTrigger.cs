@@ -5,7 +5,7 @@ using Klak.Wiring;
 namespace SimpleScript
 {
     [AddComponentMenu("Klak/Wiring/SimpleScript/SimpleTrigger")]
-    public class SimpleTrigger : ScriptingAction
+    public class SimpleTrigger : SimpleScriptBase
     {
         public enum TriggerType
         {

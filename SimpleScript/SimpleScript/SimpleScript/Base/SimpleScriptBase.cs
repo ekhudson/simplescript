@@ -3,7 +3,7 @@ using Klak.Wiring;
 
 namespace SimpleScript
 {
-    public class ScriptingAction : NodeBase
+    public class SimpleScriptBase : NodeBase
     {
         [SerializeField]
         protected DesignLabel m_DesignLabel;

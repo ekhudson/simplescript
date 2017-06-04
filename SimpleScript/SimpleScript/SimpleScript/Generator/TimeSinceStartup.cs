@@ -5,7 +5,7 @@ using Klak.Wiring;
 namespace SimpleScript
 {
     [AddComponentMenu("Klak/Wiring/SimpleScript/Generator/Time Since Startup")]
-    public class TimeSinceStartup : ScriptingAction
+    public class TimeSinceStartup : SimpleScriptBase
     {
         public class TimeSinceStartupEvent : UnityEvent<float>{}
 

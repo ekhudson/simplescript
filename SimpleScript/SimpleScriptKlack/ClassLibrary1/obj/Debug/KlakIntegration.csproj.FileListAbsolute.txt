@@ -6,3 +6,8 @@ c:\users\elliothudson\documents\visual studio 2015\Projects\SimpleScriptKlack\Cl
 C:\projects\Personal\SimpleScript\Source\SimpleScript\SimpleScriptKlack\ClassLibrary1\obj\Debug\KlakIntegration.csprojResolveAssemblyReference.cache
 C:\projects\Personal\SimpleScript\Source\SimpleScript\SimpleScriptKlack\ClassLibrary1\obj\Debug\KlakIntegration.dll
 C:\projects\Personal\SimpleScript\Source\SimpleScript\SimpleScriptKlack\ClassLibrary1\obj\Debug\KlakIntegration.pdb
+C:\Users\Elliot\Unity Projects\SimpleScript\SimpleScript\SimpleScriptKlack\ClassLibrary1\obj\Debug\KlakIntegration.dll
+C:\Users\Elliot\Unity Projects\SimpleScript\SimpleScript\SimpleScriptKlack\ClassLibrary1\obj\Debug\KlakIntegration.pdb
+C:\Users\Elliot\Unity Projects\SimpleScript\Simple Script\Assets\Code\KlakIntegration.dll
+C:\Users\Elliot\Unity Projects\SimpleScript\Simple Script\Assets\Code\KlakIntegration.pdb
+C:\Users\Elliot\Unity Projects\SimpleScript\SimpleScript\SimpleScriptKlack\ClassLibrary1\obj\Debug\KlakIntegration.csprojResolveAssemblyReference.cache

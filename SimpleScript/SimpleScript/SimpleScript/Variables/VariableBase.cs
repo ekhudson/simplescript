@@ -2,10 +2,15 @@
 using Klak.Wiring;
 
 namespace SimpleScript
-{   public class VariableBase<T> : ScriptingAction
+{   public class VariableBase<T> : SimpleScriptBase
     {        
         [SerializeField, Outlet]
         protected T m_Value;
+
+        public T Value()
+        {
+            return m_Value;
+        }
 
         [Inlet]
         public void Set(T newValue)
