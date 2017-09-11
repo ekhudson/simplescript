@@ -35,20 +35,18 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
     <Reference Include="UnityEditor">
-      <HintPath>..\..\..\..\..\..\..\Program Files\Unity 5.5.0b1\Editor\Data\Managed\UnityEditor.dll</HintPath>
+      <HintPath>C:\Program Files\Unity 2017.2.0b8\Editor\Data\Managed\UnityEditor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.Graphs">
-      <HintPath>..\..\..\..\..\..\..\Program Files\Unity 5.5.0b1\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+      <HintPath>C:\Program Files\Unity 2017.2.0b8\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine">
-      <HintPath>..\..\..\..\..\..\..\Program Files\Unity 5.5.0b1\Editor\Data\Managed\UnityEngine.dll</HintPath>
+      <HintPath>C:\Program Files\Unity 2017.2.0b8\Editor\Data\Managed\UnityEngine.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
@@ -78,13 +76,6 @@
     <Compile Include="Variables\StringVariable.cs" />
     <Compile Include="Variables\VariableUtility.cs" />
     <Compile Include="Variables\Vector3Variable.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\SimpleScriptKlack\ClassLibrary1\KlakIntegration.csproj">
-      <Project>{2d5f4131-2f0e-4213-9890-7970682599d0}</Project>
-      <Name>KlakIntegration</Name>
-      <Private>False</Private>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

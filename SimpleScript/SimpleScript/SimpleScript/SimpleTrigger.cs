@@ -1,10 +1,9 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
-using Klak.Wiring;
 
 namespace SimpleScript
 {
-    [AddComponentMenu("Klak/Wiring/SimpleScript/SimpleTrigger")]
+    [AddComponentMenu("SimpleScript/SimpleTrigger")]
     public class SimpleTrigger : SimpleScriptBase
     {
         public enum TriggerType
@@ -30,25 +29,11 @@ namespace SimpleScript
 
         private bool m_HasBeenTriggered = false;
 
-        [SerializeField, Outlet]
+        [SerializeField]
         private UnityEvent m_OnTriggered;
 
         protected virtual void OnTrigger() { }
 
-        public override string SubTitle()
-        {
-            return m_TriggerOn.ToString();
-        }
-
-        protected override int mNodeColor
-        {
-            get
-            {
-                return 5;
-            }
-        }
-
-        [Inlet]
         public void ForceTrigger()
         {
             if (m_DebugMode)

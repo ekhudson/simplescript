@@ -1,15 +1,14 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
-using Klak.Wiring;
 
 namespace SimpleScript
 {
-    [AddComponentMenu("Klak/Wiring/SimpleScript/Generator/Delta Time")]
+    [AddComponentMenu("SimpleScript/Generator/Delta Time")]
     public class DeltaTime : SimpleScriptBase
     {
         public class DeltaTimeEvent : UnityEvent<float> { }
 
-        [SerializeField, Outlet]
+        [SerializeField]
         private UnityEvent<float> m_DeltaTime = new DeltaTimeEvent();
 
         public void Update()

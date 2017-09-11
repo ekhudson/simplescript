@@ -1,15 +1,14 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
-using Klak.Wiring;
 
 namespace SimpleScript
 {
-    [AddComponentMenu("Klak/Wiring/SimpleScript/Generator/Time Since Startup")]
+    [AddComponentMenu("SimpleScript/Generator/Time Since Startup")]
     public class TimeSinceStartup : SimpleScriptBase
     {
         public class TimeSinceStartupEvent : UnityEvent<float>{}
 
-        [SerializeField, Outlet]
+        [SerializeField]
         private TimeSinceStartupEvent m_TimeSinceStartup = new TimeSinceStartupEvent();
 
         public void Update()

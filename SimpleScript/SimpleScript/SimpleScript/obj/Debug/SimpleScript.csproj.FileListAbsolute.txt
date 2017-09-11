@@ -11,3 +11,8 @@ C:\Users\Elliot\Unity Projects\SimpleScript\SimpleScript\SimpleScript\SimpleScri
 C:\Users\Elliot\Unity Projects\SimpleScript\SimpleScript\SimpleScript\SimpleScript\obj\Debug\SimpleScript.pdb
 C:\Users\Elliot\Unity Projects\SimpleScript\Simple Script\Assets\Code\SimpleScript.dll
 C:\Users\Elliot\Unity Projects\SimpleScript\Simple Script\Assets\Code\SimpleScript.pdb
+D:\Unity Projects\SimpleScript\SimpleScript\SimpleScript\SimpleScript\obj\Debug\SimpleScript.csprojResolveAssemblyReference.cache
+D:\Unity Projects\SimpleScript\SimpleScript\SimpleScript\SimpleScript\obj\Debug\SimpleScript.dll
+D:\Unity Projects\SimpleScript\SimpleScript\SimpleScript\SimpleScript\obj\Debug\SimpleScript.pdb
+D:\Unity Projects\SimpleScript\Simple Script\Assets\Code\SimpleScript.dll
+D:\Unity Projects\SimpleScript\Simple Script\Assets\Code\SimpleScript.pdb
