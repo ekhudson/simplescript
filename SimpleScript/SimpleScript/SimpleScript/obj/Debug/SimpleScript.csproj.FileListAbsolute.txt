@@ -16,3 +16,4 @@ D:\Unity Projects\SimpleScript\SimpleScript\SimpleScript\SimpleScript\obj\Debug\
 D:\Unity Projects\SimpleScript\SimpleScript\SimpleScript\SimpleScript\obj\Debug\SimpleScript.pdb
 D:\Unity Projects\SimpleScript\Simple Script\Assets\Code\SimpleScript.dll
 D:\Unity Projects\SimpleScript\Simple Script\Assets\Code\SimpleScript.pdb
+C:\Users\Elliot\Unity Projects\SimpleScript\SimpleScript\SimpleScript\SimpleScript\obj\Debug\SimpleScript.csproj.CoreCompileInputs.cache

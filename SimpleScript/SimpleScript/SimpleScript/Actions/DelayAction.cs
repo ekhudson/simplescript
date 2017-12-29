@@ -18,7 +18,18 @@ namespace SimpleScript
 
         IEnumerator DoDelay()
         {
+            if (m_DebugMode)
+            {
+                Debug.Log(string.Format("Starting delay of {0} seconds", m_DelayTimeInSeconds));
+            }
+
             yield return new WaitForSeconds(m_DelayTimeInSeconds);
+
+            if (m_DebugMode)
+            {
+                Debug.Log("Delay ended, calling on complete action");
+            }
+
             OnActionComplete();
         }
     }

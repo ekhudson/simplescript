@@ -27,6 +27,8 @@ namespace SimpleScript.Actions
 
         [SerializeField]
         private OutputValueEvent m_OutputValue;
+        [SerializeField]
+        private UnityEvent m_OnCompleteEvent;
 
         private bool mIsAnimating = false;
         private float mCurrentTime = 0f;
@@ -89,6 +91,7 @@ namespace SimpleScript.Actions
             switch(m_LoopType)
             {
                 case LoopType.None:
+                    mIsAnimating = false;
                 break;
 
                 case LoopType.Loop:
@@ -99,6 +102,11 @@ namespace SimpleScript.Actions
                     mCurrentTime = 0f;
                     mPlayDirection *= -1;
                 break;
+            }
+
+            if (m_OnCompleteEvent != null)
+            {
+                m_OnCompleteEvent.Invoke();
             }
         }
 
