@@ -11,12 +11,12 @@ namespace SimpleScript
         protected virtual void ActionLogic()
         {
             //override and implement logic for the action
+            OnActionComplete();
         }
 
         public void ActivateAction()
         {
             ActionLogic();
-            OnActionComplete();
         }
 
         protected virtual void OnActionComplete()
