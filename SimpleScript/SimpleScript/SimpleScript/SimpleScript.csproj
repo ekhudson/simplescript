@@ -55,14 +55,16 @@
     <Compile Include="Actions\DelayAction.cs" />
     <Compile Include="Actions\FloatMathAction.cs" />
     <Compile Include="Actions\IntMathAction.cs" />
+    <Compile Include="Actions\MoveTransformAction.cs" />
     <Compile Include="Actions\SimpleAnimationAction.cs" />
     <Compile Include="Base\DesignLabel.cs" />
     <Compile Include="Generator\DeltaTime.cs" />
+    <Compile Include="Generator\NoiseComponent.cs" />
     <Compile Include="Generator\TimeSinceStartup.cs" />
     <Compile Include="Graph\NodeEditor.cs" />
     <Compile Include="Graph\SimpleGraph.cs" />
     <Compile Include="Graph\SimpleGraphEditorWindow.cs" />
-    <Compile Include="TickerComponent.cs" />
+    <Compile Include="Generator\TickerComponent.cs" />
     <Compile Include="Variables\BoolVariable.cs" />
     <Compile Include="Variables\ComponentReference.cs" />
     <Compile Include="Variables\FloatVariable.cs" />

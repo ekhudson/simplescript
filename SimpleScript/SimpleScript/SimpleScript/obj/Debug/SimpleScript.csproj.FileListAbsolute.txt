@@ -17,3 +17,9 @@ D:\Unity Projects\SimpleScript\SimpleScript\SimpleScript\SimpleScript\obj\Debug\
 D:\Unity Projects\SimpleScript\Simple Script\Assets\Code\SimpleScript.dll
 D:\Unity Projects\SimpleScript\Simple Script\Assets\Code\SimpleScript.pdb
 C:\Users\Elliot\Unity Projects\SimpleScript\SimpleScript\SimpleScript\SimpleScript\obj\Debug\SimpleScript.csproj.CoreCompileInputs.cache
+C:\Users\ekhud\Unity Projects\SimpleScript\Simple Script\Assets\Code\SimpleScript.dll
+C:\Users\ekhud\Unity Projects\SimpleScript\Simple Script\Assets\Code\SimpleScript.pdb
+C:\Users\ekhud\Unity Projects\SimpleScript\SimpleScript\SimpleScript\SimpleScript\obj\Debug\SimpleScript.csprojResolveAssemblyReference.cache
+C:\Users\ekhud\Unity Projects\SimpleScript\SimpleScript\SimpleScript\SimpleScript\obj\Debug\SimpleScript.csproj.CoreCompileInputs.cache
+C:\Users\ekhud\Unity Projects\SimpleScript\SimpleScript\SimpleScript\SimpleScript\obj\Debug\SimpleScript.dll
+C:\Users\ekhud\Unity Projects\SimpleScript\SimpleScript\SimpleScript\SimpleScript\obj\Debug\SimpleScript.pdb
