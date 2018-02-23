@@ -59,9 +59,7 @@
     <Compile Include="Actions\IntMathAction.cs" />
     <Compile Include="Actions\MoveTransformAction.cs" />
     <Compile Include="Actions\SimpleAnimationAction.cs" />
-    <Compile Include="Attributes\ReadOnlyAttribute.cs" />
     <Compile Include="Base\DesignLabel.cs" />
-    <Compile Include="Editor\ReadOnlyDrawer.cs" />
     <Compile Include="Generator\DeltaTime.cs" />
     <Compile Include="Generator\NoiseComponent.cs" />
     <Compile Include="Generator\TimeSinceStartup.cs" />
@@ -83,7 +81,9 @@
     <Compile Include="Variables\VariableUtility.cs" />
     <Compile Include="Variables\Vector3Variable.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Attributes\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -26,9 +26,7 @@ namespace SimpleScript
         [SerializeField]
         private UnityEvent m_OnConditionMet;
 
-        [ReadOnly]
         private int mCurrentAmount = 0;
-        [ReadOnly]
         private bool mIsActive = true;
 
         public void ModifyCounter(int modifyAmount)
