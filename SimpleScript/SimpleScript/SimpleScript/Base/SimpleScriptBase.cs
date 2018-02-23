@@ -9,5 +9,13 @@ namespace SimpleScript
 
         [SerializeField]
         protected bool m_DebugMode;
+
+        protected void DebugMessage(string message, Object sender)
+        {
+            if (m_DebugMode)
+            {
+                Debug.Log(message, sender);
+            }
+        }
     }
 }

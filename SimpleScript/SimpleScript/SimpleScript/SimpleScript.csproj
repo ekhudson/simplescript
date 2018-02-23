@@ -38,14 +38,16 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="UnityEditor">
-      <HintPath>..\..\..\..\..\..\..\Program Files\Unity 2017.3.0b9\Editor\Data\Managed\UnityEditor.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\Program Files\Unity 2018.1.0b7\Editor\Data\Managed\UnityEditor.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.Graphs">
-      <HintPath>C:\Program Files\Unity 2017.2.0b8\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\Program Files\Unity 2018.1.0b7\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine">
-      <HintPath>..\..\..\..\..\..\..\Program Files\Unity 2017.3.0b9\Editor\Data\Managed\UnityEngine.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\Program Files\Unity 2018.1.0b7\Editor\Data\Managed\UnityEngine.dll</HintPath>
+      <Private>False</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -65,6 +67,7 @@
     <Compile Include="Graph\SimpleGraph.cs" />
     <Compile Include="Graph\SimpleGraphEditorWindow.cs" />
     <Compile Include="Generator\TickerComponent.cs" />
+    <Compile Include="Utility\Switch.cs" />
     <Compile Include="Variables\BoolVariable.cs" />
     <Compile Include="Variables\ComponentReference.cs" />
     <Compile Include="Variables\FloatVariable.cs" />
@@ -77,6 +80,7 @@
     <Compile Include="Variables\VariableUtility.cs" />
     <Compile Include="Variables\Vector3Variable.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
